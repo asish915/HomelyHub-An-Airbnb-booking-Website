@@ -1,130 +1,176 @@
-# HomelyHub
+<h1 align="center">🏡 HomelyHub – Airbnb Booking Platform (MERN Stack)</h1>
 
-HomelyHub is a MERN (MongoDB, Express.js, React.js, Node.js) stack project designed to help users manage and discover properties, connect with agents, and streamline the home renting or buying process.
-
-## Tech Stack
-
-<p align="left" style="display: flex; gap: 40px; flex-wrap: wrap;">
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" height="60" width="60" style="border-radius: 20px; background: #47A248; padding: 8px;" alt="MongoDB"/>
-    <br><span style="font-size: 16px;">MongoDB</span>
-  </div>
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" height="60" width="60" style="border-radius: 20px; background: #000; padding: 8px;" alt="Express.js"/>
-    <br><span style="font-size: 16px;">Express.js</span>
-  </div>
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" height="60" width="60" style="border-radius: 20px; background: #61DAFB; padding: 8px;" alt="React"/>
-    <br><span style="font-size: 16px;">React</span>
-  </div>
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" height="60" width="60" style="border-radius: 20px; background: #339933; padding: 8px;" alt="Node.js"/>
-    <br><span style="font-size: 16px;">Node.js</span>
-  </div>
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://jwt.io/img/icon.svg" height="60" width="60" style="border-radius: 20px; background: #000; padding: 8px;" alt="JWT"/>
-    <br><span style="font-size: 16px;">JWT</span>
-  </div>
-  <div style="display: inline-block; text-align: center; margin-right: 30px;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg" height="60" width="60" style="border-radius: 20px; background: #e10098; padding: 8px;" alt="Mongoose"/>
-    <br><span style="font-size: 16px;">Mongoose</span>
-  </div>
-  <div style="display: inline-block; text-align: center;">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" height="60" width="60" style="border-radius: 20px; background: #764ABC; padding: 8px;" alt="Redux"/>
-    <br><span style="font-size: 16px;">Redux</span>
-  </div>
+<p align="center">
+  <b>A Full-Stack Airbnb-inspired web application built using the MERN Stack.</b>  
+  <br>
+  Book your perfect stay, list your property, and manage bookings — all in one modern platform.
 </p>
 
-## Features
-
-- **User Authentication**: Register, login, and secure user sessions.
-- **Property Listings**: Browse, search, and filter properties.
-- **Add/Edit/Delete Properties**: Agents or admins manage listings.
-- **Responsive UI**: Mobile-friendly design using React.
-- **Agent/Owner Profiles**: View agent details and contact owners.
-- **Favorites**: Save favorite properties for later.
-- **Messaging**: Connect with agents or property owners.
-- **Admin Dashboard**: Manage users, properties, and site requests.
-
-## Getting Started
-
-1. **Clone the repository**
-    ```bash
-    git clone https://github.com/<your-username>/homelyhub.git
-    cd homelyhub
-    ```
-
-2. **Set up Environment Variables**
-    - Create a `.env` file in the root for the backend:
-      ```
-      MONGO_URI=your-mongodb-uri
-      JWT_SECRET=your-jwt-secret
-      ```
-
-3. **Install dependencies**
-    - Backend:
-        ```bash
-        cd backend
-        npm install
-        ```
-    - Frontend:
-        ```bash
-        cd ../frontend
-        npm install
-        ```
-
-4. **Run the app**
-    - Backend:
-        ```bash
-        npm start
-        ```
-    - Frontend:
-        ```bash
-        npm start
-        ```
-
-5. **Open in browser**
-    ```
-    http://localhost:3000
-    ```
-
-## Folder Structure
-
-```
-homelyhub/
-│
-├── backend/           # Node.js + Express API
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── ...
-│
-├── frontend/          # React App
-│   ├── src/
-│   ├── public/
-│   ├── ...
-│
-├── README.md
-└── ...
-```
-
-## API Endpoints
-
-Example:
-- `POST /api/auth/register` — Register user
-- `POST /api/auth/login` — Login user
-- `GET /api/properties` — Get properties
-- `POST /api/properties` — Create property
-- More endpoints documented in [backend/routes](./backend/routes)
-
-## Contributing
-
-Contributions welcome! Please open an issue first to discuss changes.
-
-## License
-
-MIT
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Mongoose-e10098?style=for-the-badge&logo=mongoose&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"/>
+</p>
 
 ---
 
-**HomelyHub** — _Your one-stop solution for property management and discovery._
+## ✨ Overview
+
+**HomelyHub** is an Airbnb-like property booking platform built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
+It enables users to **book short-term stays**, **list rental properties**, **manage reservations**, and **connect with hosts** — all through an intuitive and responsive interface.
+
+---
+
+## 🧩 Tech Stack
+
+| Component | Technology | Description |
+|------------|-------------|-------------|
+| **Frontend** | React.js + Redux | Modern, responsive user interface with state management |
+| **Backend** | Node.js + Express.js | RESTful API server and authentication handling |
+| **Database** | MongoDB + Mongoose | Flexible NoSQL database for properties, bookings, and users |
+| **Auth** | JWT (JSON Web Token) | Secure authentication for users and hosts |
+| **Styling** | CSS / Tailwind | Clean and responsive UI styling |
+
+---
+
+## 🌟 Features
+
+🏠 **Property Listings** – Browse available homes, villas, and apartments.  
+🧑‍💻 **Host Dashboard** – List properties with details, photos, and pricing.  
+📅 **Booking System** – Real-time property booking and reservation tracking.  
+🔐 **User Authentication** – Secure signup, login, and session handling via JWT.  
+💬 **Messaging** – Connect guests and hosts within the platform.  
+❤️ **Wishlist** – Save favorite properties for quick access later.  
+📱 **Responsive Design** – Optimized for desktop, tablet, and mobile screens.  
+🧾 **Admin Panel** – Manage users, bookings, and property listings.
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/<your-username>/HomelyHub-An-Airbnb-booking-Website.git
+cd HomelyHub-An-Airbnb-booking-Website
+```
+
+### 2️⃣ Set Up Environment Variables
+Create a `.env` file inside the `backend/` folder:
+```bash
+MONGO_URI=your-mongodb-connection-string
+JWT_SECRET=your-jwt-secret
+CLOUDINARY_URL=your-cloudinary-api-key
+PORT=5000
+```
+
+### 3️⃣ Install Dependencies
+```bash
+# Backend
+cd backend
+npm install
+
+# Frontend
+cd ../frontend
+npm install
+```
+
+### 4️⃣ Run the Application
+```bash
+# Backend server
+cd backend
+npm start
+
+# Frontend client
+cd ../frontend
+npm run dev
+```
+
+### 5️⃣ Access the App
+```
+http://localhost:5173/
+```
+
+---
+
+## 🗂 Folder Structure
+
+```
+HomelyHub/
+│
+├── backend/             # Node.js + Express.js API
+│   ├── config/          # MongoDB connection, environment setup
+│   ├── models/          # Mongoose models (User, Property, Booking)
+│   ├── routes/          # Express routes (auth, properties, bookings)
+│   ├── controllers/     # Route logic and data processing
+│   ├── utils/           # JWT, middleware, error handling
+│   └── server.js
+│
+├── frontend/            # React.js frontend
+│   ├── src/
+│   │   ├── components/  # Navbar, Footer, Cards, etc.
+│   │   ├── pages/       # Home, Property, Booking, Profile
+│   │   ├── redux/       # Redux state management
+│   │   └── App.js
+│   ├── public/
+│   └── package.json
+│
+└── README.md
+```
+
+---
+
+## 🔗 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|-----------|-------------|
+| `POST` | `/api/auth/register` | Register new user or host |
+| `POST` | `/api/auth/login` | Login existing user |
+| `GET` | `/api/properties` | Get all property listings |
+| `POST` | `/api/properties` | Add a new property (host only) |
+| `GET` | `/api/properties/:id` | Get property by ID |
+| `POST` | `/api/bookings` | Book a stay |
+| `GET` | `/api/bookings/user/:id` | Get bookings for a user |
+
+📘 *Full route details available in* [`backend/routes`](./backend/routes)
+
+---
+
+## 🧑‍💻 Contributing
+
+Contributions are welcome!  
+To contribute:
+1. Fork this repo  
+2. Create a feature branch  
+3. Commit your changes  
+4. Submit a Pull Request 🚀  
+
+---
+
+## 📄 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgements
+
+- **Mentor:** Mrs. *Richa Jha*  
+- **Developed by:** [Asish Sarangi](https://www.linkedin.com/in/asish-sarangi-8a33322a6)  
+- **Internship:** Web Stack Academy (WSA)
+
+---
+
+## 🌐 Connect with Me
+
+<p align="center">
+  <a href="https://github.com/asish915"><img src="https://img.shields.io/badge/GitHub-asish915-black?style=for-the-badge&logo=github"/></a>
+  <a href="https://www.linkedin.com/in/asish-sarangi-8a33322a6"><img src="https://img.shields.io/badge/LinkedIn-Asish%20Sarangi-blue?style=for-the-badge&logo=linkedin"/></a>
+  <a href="mailto:asishsarangi2005@gmail.com"><img src="https://img.shields.io/badge/Email-asishsarangi2005@gmail.com-red?style=for-the-badge&logo=gmail"/></a>
+</p>
+
+---
+
+> 🌍 *HomelyHub – Find your next stay, anywhere, anytime.*
